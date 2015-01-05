@@ -23,7 +23,7 @@ module.exports = {
 
   watch: {
     gulp  : 'gulp/**/*.coffee'
-    bower : "bower_components/**/**"
+    bower : "bower_components/**/*"
     root  : "#{config.app}"
     js    : "#{config.app}/scripts/*.js"
     style : "#{config.app}/styles/*.scss"
