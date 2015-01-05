@@ -1,16 +1,4 @@
 {
-  "name": "gulp-boilerplate",
-  "version": "1.0.0",
-  "description": "gulp boilerplate",
-  "homepage": "https://github.com/zchee-sandbox/gulp-boilerplate",
-  "authors": [
-    "zchee <zchee@zsh.us>"
-  ],
-  "keywords": [
-    "gulp",
-    "boilerblate"
-  ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",

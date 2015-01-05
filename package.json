@@ -1,25 +1,4 @@
 {
-  "name": "gulp-boilerplate",
-  "version": "1.0.0",
-  "description": "gulp boilerplate",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com/zchee-sandbox/gulp-boilerplate.git"
-  },
-  "keywords": [
-    "boilerplate",
-    "bower"
-  ],
-  "author": "zchee <zchee@zsh.us>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zchee-sandbox/gulp-boilerplate/issues"
-  },
-  "homepage": "https://github.com/zchee-sandbox/gulp-boilerplate",
   "devDependencies": {
     "browser-sync": "^1.8.3",
     "coffee-script": "^1.8.0",
