@@ -1,5 +1,5 @@
 config = {
-  app  : 'app',
+  app  : '.',
   dist : 'dist'
 }
 
