@@ -7,4 +7,6 @@ cp gulp/.bowerrc ./.bowerrc
 cp gulp/package.json ./package.json
 cp gulp/gulpfile.coffee ./gulpfile.coffee
 
+find . -name ".gitkeep" -print -exec rm {} ";"
+
 npm install
