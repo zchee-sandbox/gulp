@@ -9,13 +9,27 @@ module.exports = {
 
   js: {
     app:  "#{config.app}/scripts/*.js",
-    dist: "#{config.dist}/scripts"
+    dist: "#{config.app}/scripts"
   },
 
   style: {
     app: "#{config.app}/styles/*.scss"
-    dist: "#{config.dist}/styles"
+    dist: "#{config.app}/styles"
   },
+
+  critical: {
+    base: "#{config.app}/"
+    src: "#{config.app}/index.html"
+    dest: {
+      css : "#{config.app}/styles/style.critical.css"
+      html: "#{config.app}/index-critical.html"
+    }
+  },
+
+  html: {
+    app: "#{config.app}/*.html"
+    dist: "#{config.app}/"
+  }
 
   bower: {
     app: "#{config.app}/vendor"

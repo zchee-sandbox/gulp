@@ -7,6 +7,7 @@ gulp.task 'server', ->
     server:
       baseDir: config.root
     open: false
+    notify: false
 
 gulp.task 'reload', ->
   browserSync.reload stream: true

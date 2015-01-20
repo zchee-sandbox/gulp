@@ -1,6 +1,7 @@
 gulp   = require 'gulp'
 config = require('../config').watch
 watch  = require 'gulp-watch'
+browserSync = require 'browser-sync'
 
 gulp.task 'watch', ->
   watch "#{config.gulp}", ->
@@ -8,8 +9,8 @@ gulp.task 'watch', ->
   watch "#{config.bower}", ->
     gulp.start ['bower']
   watch "#{config.js}", ->
-    gulp.start ['js', 'reload']
+    gulp.start ['js']
   watch "#{config.style}", ->
-    gulp.start ['style', 'reload']
+    gulp.start ['style']
   watch "#{config.html}", ->
-    gulp.start ['reload']
+    gulp.start ['html']
