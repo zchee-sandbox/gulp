@@ -1,6 +1,6 @@
 config = {
-  app  : '.',
-  dist : 'dist'
+  app : '.',
+  dist: 'dist'
 }
 
 module.exports = {
@@ -8,18 +8,18 @@ module.exports = {
   config: 'config',
 
   js: {
-    app:  "#{config.app}/scripts/*.js",
+    app : "#{config.app}/scripts/*.js",
     dist: "#{config.app}/scripts"
   },
 
   style: {
-    app: "#{config.app}/styles/*.scss"
+    app : "#{config.app}/styles/*.scss"
     dist: "#{config.app}/styles"
   },
 
   critical: {
     base: "#{config.app}/"
-    src: "#{config.app}/index.html"
+    src : "#{config.app}/index.html"
     dest: {
       css : "#{config.app}/styles/style.critical.css"
       html: "#{config.app}/index-critical.html"
@@ -27,7 +27,7 @@ module.exports = {
   },
 
   html: {
-    app: "#{config.app}/*.html"
+    app : "#{config.app}/*.html"
     dist: "#{config.app}/"
   }
 
@@ -36,11 +36,12 @@ module.exports = {
   }
 
   watch: {
-    gulp  : 'gulp/**/*.coffee'
-    bower : "bower_components/**/*"
-    root  : "#{config.app}"
-    js    : "#{config.app}/scripts/*.js"
-    style : "#{config.app}/styles/*.scss"
-    html  : "#{config.app}/*.html"
+    gulp   : 'gulp/**/*.coffee'
+    root   : "#{config.app}"
+    js     : "#{config.app}/scripts/*.js"
+    style  : "#{config.app}/styles/*.scss"
+    html   : "#{config.app}/*.html"
+    bower  : 'bower_components/**/*'
+    polymer: "#{config.app}/bower_components/**/*.{html,css}"
   }
 }
